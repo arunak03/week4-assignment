@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body div{
+            width:300px;
+        }
+        button {
+            width: 200px;
+            margin: auto;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .postercontainer {
+            width: 500px;
+            height: 500px;
+           
+        }
+        section{
+            width:700px;
+            display: flex;
+        }
+        .postercontainer img {
+            width: 100%;
+            height: 70%;
+            }
+
+    </style>
+    <script src="jquery-3.7.1.js"></script>
+
+    <script>
+        var tempdata = {}
+
+        $(() => {
+            $.getJSON("data.json", function (data, status, jqxhr) {
+                tempdata = data;
+
+                $(data.herolist).each(function (idx, val) {
+                    $(".hlist").append(`<option value ="${idx}">${val.title}</option>`)
+                })
+            });
+
+            $(".box").on("click", "button", function (evt) {
+                $(evt.target).next().removeAttr("hidden");
+            })
+
+            $(".hlist").on("change", function (evt) {
+                let selectedhero = tempdata.herolist[evt.target.value];
+                let selectedheromovie = selectedhero.movieslist;
+
+                if (selectedheromovie.length === 0) {
+                    alert("selected hero doesn't have any movies");
+                }
+
+                let movieListHtml = "";
+
+                if (selectedheromovie.length > 0) {
+                    movieListHtml = "<ul class='list-group list-group-flush'>";
+                    selectedheromovie.forEach(function (movieslist) {
+                        // Add a data attribute to store the poster URL
+                        movieListHtml += `<li class='list-group-item movie-item' data-poster="${movieslist.poster}">${movieslist.title}</li>`;
+                    });
+                    movieListHtml += "</ul>";
+                }
+
+                $(".box").html(`
+                    <div class="card" style="width: 18rem;">
+                        <img src="${selectedhero.poster}" class="card-img-top" alt="${selectedhero.title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${selectedhero.title}</h5>
+                            <p class="card-text">
+                                Full Name : ${selectedhero.firstname + " " + selectedhero.lastname}<br/>
+                                Release on : ${selectedhero.releasedate}<br/>
+                                Ticket Price : ${selectedhero.ticketprice}<br/>
+                                City : ${selectedhero.city}
+                            </p>
+                            <button class="btn btn-primary movies">Movies</button>
+                            <div hidden class="card" style="width: 100%">
+                                ${movieListHtml} 
+                            </div>
+                        </div>
+                    </div>
+                `);  
+            });
+            $(document).on("click", ".movie-item", function () {
+                var posterUrl = $(this).data("poster");
+                displayMoviePoster(posterUrl);
+            });
+            function displayMoviePoster(posterUrl) {
+                var posterContainer = $(".postercontainer");
+                posterContainer.empty(); 
+                    var moviePoster = $("<img>")
+                        .attr("src", posterUrl)
+                        posterContainer.append(moviePoster);
+                        
+                }
+            }
+        )
+    </script>
+</head>
+<body><section
+>   <div class="container">
+        <select class="hlist">
+            <option>default</option>
+        </select>
+        <div class="box"></div>
+    </div>
+
+    <div class="postercontainer"></div>
+</section> 
+</body>
+</html>
