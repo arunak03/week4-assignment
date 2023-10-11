@@ -1,0 +1,261 @@
+{
+    "UserSimData": [{
+        "sim": "Jio",
+        "mobile": 1234567890,
+        "imei": "2345678lOIUYT",
+        "NetworkStatus": "Fare",
+        "BatteryStatus": 70,
+        "address": " 7/1,2nd main,jp nagar ,bangalore",
+        "health condition": ""
+    },{
+        "sim": "idea",
+        "mobile": 1234567890,
+        "imei": "2345678lOIUYT",
+        "NetworkStatus": "Fare",
+        "BatteryStatus": 70,
+        "address": " 7/1,2nd main,jp nagar ,bangalore",
+        "health condition": ""
+    }
+],
+    "Places" : [{
+        "city":"Bangalore",
+        "Typeofplace":  {
+            "Historical" :[{
+                "name":"Bangalore Palace",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,bangalore",
+                "health condition": " "
+                },
+                {
+                    "name":"Tippu Palace",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,bangalore",
+                    "health condition": " "
+                }
+            ] ,
+            "Adventures" :[{
+                "name":"Wonderla",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,bangalore",
+                "health condition": " "
+                },
+                {
+                    "name":"Tippu Palace",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,bangalore",
+                    "health condition": " "
+                }
+            ] ,
+            "park" :[{
+                "name":"lalbhag",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,bangalore",
+                "health condition": " "
+                },
+                {
+                    "name":"cubbon park",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,bangalore",
+                    "health condition": " "
+                }
+            ],
+            "shopping" :[{
+                "name":"orion malll",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,bangalore",
+                "health condition": " "
+                },
+                {
+                    "name":"Commercial street",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,bangalore",
+                    "health condition": " "
+                }
+            ],
+            "religious" :[{
+                "name":"Iskon Temple",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,bangalore",
+                "health condition": " "
+                },
+                {
+                    "name":"Ragi gudda",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,bangalore",
+                    "health condition": " "
+                }   
+            ]      
+        }
+       },
+       {
+        "city":"Chennai",
+        "Typeofplace":  {
+            "Historical" :[{
+                "name":"Mahabalipuram",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,chennai",
+                "health condition": " "
+                },
+                {
+                    "name":"Government museum chennai",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,chennai",
+                    "health condition": " "
+                }
+            ] ,
+            "Adventures" :[{
+                "name":"wild trails",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,chennai",
+                "health condition": " "
+                },
+                {
+                    "name":"Fun world",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,chennai",
+                    "health condition": " "
+                }
+            ] ,
+            "beach" :[{
+                "name":"marina",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,chennai",
+                "health condition": " "
+                },
+                {
+                    "name":"golden",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,chennai",
+                    "health condition": " "
+                }
+            ],
+            "shopping" :[{
+                "name":"VR malll",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,chennai",
+                "health condition": " "
+                },
+                {
+                    "name":"T nagar",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,chennai",
+                    "health condition": " "
+                }
+            ],
+            "religious" :[{
+                "name":"kapaleeshwara Temple",
+                "latitude": 2346,
+                "longitude": 4567,
+                "timings": "9am-5pm",
+                "Lunch-timings":"12am-2pm",
+                "dress code": "formal",
+                "enterencefess": 70,
+                "address": " 7/1,2nd main,jp nagar ,chennai",
+                "health condition": " "
+                },
+                {
+                    "name":"Andrews Church",
+                    "latitude": 2346,
+                    "longitude": 4567,
+                    "timings": "9am-5pm",
+                    "Lunch-timings":"12am-2pm",
+                    "dress code": "formal",
+                    "enterencefess": 70,
+                    "address": " 7/1,2nd main,jp nagar ,chennai",
+                    "health condition": " "
+                }   
+            ]      
+        }
+       }
+    ]
+}
